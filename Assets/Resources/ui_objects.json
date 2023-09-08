@@ -1,0 +1,178 @@
+{
+  "objects": [
+    {
+      "name": "BG",
+      "components": [
+        {
+          "type": "RawImage",
+          "properties": {
+            "color": {
+              "r": 0.5,
+              "g": 0.5,
+              "b": 0.5,
+              "a": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Placeholder",
+      "components": [
+        {
+          "type": "RawImage",
+          "properties": {
+            "color": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "cornerRadius": 30
+          }
+        }
+      ]
+    },
+    {
+      "name": "SampleFormat",
+      "components": [
+        {
+          "type": "GameObject",
+          "properties": {
+            "name": "Holder"
+          },
+          "children": [
+            {
+              "name": "RawImage_adchoicesIcon",
+              "components": [
+                {
+                  "type": "RawImage",
+                  "properties": {
+                    "color": {
+                      "r": 0.0,
+                      "g": 0.0,
+                      "b": 0.0,
+                      "a": 1.0
+                    },
+                    "texture": "testAd"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Padding",
+              "components": [
+                {
+                  "type": "Padding",
+                  "properties": {
+                    "name": "Button",
+                    "children": [
+                      {
+                        "name": "Appdetails",
+                        "components": [
+                          {
+                            "type": "Button"
+                          },
+                          {
+                            "type": "GameObject",
+                            "properties": {
+                              "text": "AppIconHolder"
+                            }
+                            
+                          },
+                          {
+                            "type": "Button",
+                            "properties": {
+                              "text": "AppInfo"
+                            }
+                          },
+                          {
+                            "type": "Button",
+                            "properties": {
+                              "text": "StarRating"
+                            }
+                          }
+
+                        ]
+                      },
+                      {
+                        "name": "Text_body",
+                        "components": [
+                          {
+                            "type": "Text",
+                            "properties": {
+                              "text": "Install Flood It app for free! Free Popular Casual Game",
+                              "color": {
+                                "r": 0.0,
+                                "g": 0.0,
+                                "b": 0.0,
+                                "a": 1.0
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Button_Cta",
+                        "components": [
+                          {
+                            "type": "Button",
+                            "properties": {
+                              "text": "INSTALL",
+                              "color": {
+                                "r": 0.0,
+                                "g": 0.0,
+                                "b": 1.0,
+                                "a": 1.0
+                              }
+                            }
+                          }
+                        ]
+                      },
+
+                      {
+                        "type": "Text",
+                        "properties": {
+                          "text": "priceText"
+                        }
+                      },
+                      {
+                        "type": "Text",
+                        "properties": {
+                          "text": "Text_store"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "adTag",
+          "properties": {
+            "name": "Button"
+          }
+        }
+      ]
+    },
+    {
+      "name": "adTagText",
+      "components": [
+        {
+          "type": "Text",
+          "properties": {
+            "text": "Your Text Here",
+            "color": {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 1.0
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
